@@ -34,6 +34,8 @@ cd gatling-test
 mvn gatling:execute
 ```
 
+The location of the gatling reports will be printed to the terminal at the end of execution
+
 #### Results
 The results can be viewed in the gatling report. 
  
