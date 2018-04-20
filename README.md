@@ -10,7 +10,7 @@ This repo reproduces the issue linked above using:
 
 #### Prerequisites
 * Maven 3+
-* Docker (i.e. https://docs.docker.com/docker-for-mac/install/)
+* Docker and docker-compose (i.e. https://docs.docker.com/docker-for-mac/install/)
 
 
 #### Setup the Hazelcast Session Manager:
