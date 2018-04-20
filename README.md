@@ -9,8 +9,8 @@ This repo reproduces the issue linked above using:
 * basic gatling tests executing concurrent requests to simulate concurrent ajax requests and reproduce the issue.
 
 #### Prerequisites
-* Install maven
-* A running docker instance
+* Maven 3+
+* Docker (i.e. https://docs.docker.com/docker-for-mac/install/)
 
 
 #### Setup the Hazelcast Session Manager:
