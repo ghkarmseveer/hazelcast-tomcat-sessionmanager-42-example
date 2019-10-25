@@ -1,5 +1,6 @@
 <%@page import="java.net.InetAddress" %>
 <%@page import="java.util.Date" %>
+<%@page import="javax.servlet.http.HttpSession" %>
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
@@ -20,6 +21,8 @@
     Is new session : <%=request.getSession().isNew()%><br/>
     Session Creation Date : <%=new Date(request.getSession().getCreationTime())%><br/>
     Session Access Date : <%=new Date(request.getSession().getLastAccessedTime())%><br/><br/>
+	<%((HttpSession)request.getSession()).setAttribute("attrib1","123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789");%>
+
 </span>
 
 </body>

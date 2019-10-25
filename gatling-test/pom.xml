@@ -29,7 +29,7 @@
                 <configuration>
                     <configFolder>src/test/gatling/conf</configFolder>
                     <dataFolder>src/test/gatling/user-files/data</dataFolder>
-                    <resultsFolder>target/gatling/results/${maven.build.timestamp}/</resultsFolder>
+                    <resultsFolder>target/gatling/results/d/</resultsFolder>
                     <bodiesFolder>src/test/gatling/user-files/bodies</bodiesFolder>
                     <simulationsFolder>src/test/gatling/user-files/simulations</simulationsFolder>
                     <!-- If uncommented, these arguments below will be applied to all your gatling tests -->
