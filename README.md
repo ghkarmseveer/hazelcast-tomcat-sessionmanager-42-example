@@ -17,7 +17,7 @@ This repo reproduces the issue linked above using:
 
 ```
 mkdir -p cluster/lib
-curl http://central.maven.org/maven2/com/hazelcast/hazelcast-tomcat7-sessionmanager/1.1.3/hazelcast-tomcat7-sessionmanager-1.1.3.jar > cluster/lib/hazelcast-tomcat7-sessionmanager-1.1.3.jar
+curl http://central.maven.org/maven2/com/hazelcast/hazelcast-tomcat7-sessionmanager/1.1.4/hazelcast-tomcat85-sessionmanager-1.1.3.jar > cluster/lib/hazelcast-tomcat85-sessionmanager-1.1.4.jar
 curl http://central.maven.org/maven2/com/hazelcast/hazelcast-all/3.9.1/hazelcast-all-3.9.1.jar > cluster/lib/hazelcast-all-3.9.1.jar
 mvn clean package
 ```
